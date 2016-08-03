@@ -1,0 +1,16 @@
+.cuadradito {
+  display: inline;
+  overflow: visible;
+  position: absolute;
+  fill: rgba(0,0,0,0);
+  stroke-width: 3;
+  stroke: rgb(0,0,0);
+  z-index: 1000;
+
+}
+
+.transitionMenu {
+  -webkit-transform: scale(1) translate3d(0,0,0);
+  -webkit-transform: scale(0.95) translate3d(0,100%,0);
+  -webkit-transition: -webkit-transform 400ms ease, opacity 400ms ease;
+}
